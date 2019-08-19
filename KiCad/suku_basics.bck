@@ -18,9 +18,33 @@ K diode
 F ~
 $ENDCMP
 #
+$CMP FERRIT
+D Ferrite bead, small symbol
+K L ferrite bead inductor filter
+F ~
+$ENDCMP
+#
+$CMP INDUCTOR
+D Inductor, small symbol
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
 $CMP LED
 D Light emitting diode, small symbol
 K LED diode light-emitting-diode
+F ~
+$ENDCMP
+#
+$CMP PCA9634
+D 8-channel 8-bit PWM Driver I2C-bus LED controller
+K PWM LED driver I2C TSSOP
+F http://www.nxp.com/documents/data_sheet/PCA9685.pdf
+$ENDCMP
+#
+$CMP POLY
+D Resettable fuse, polymeric positive temperature coefficient, small symbol
+K resettable fuse PTC PPTC polyfuse polyswitch
 F ~
 $ENDCMP
 #

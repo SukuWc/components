@@ -1,5 +1,20 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +3.3V
+D Power symbol creates a global label with name "+3.3V"
+K power-flag
+$ENDCMP
+#
+$CMP +3V3_UC
+D Power symbol creates a global label with name "+3V3_UC"
+K power-flag
+$ENDCMP
+#
+$CMP +3V3_UI
+D Power symbol creates a global label with name "+3V3_UI"
+K power-flag
+$ENDCMP
+#
 $CMP CAP
 D Unpolarized capacitor, small symbol
 K capacitor cap
