@@ -21,6 +21,12 @@ K HCMOS SR 3State
 F http://www.ti.com/lit/ds/symlink/sn74hc595.pdf
 $ENDCMP
 #
+$CMP 74HC1G66GW
+D Single Analog Switch
+K Single Analog Switch
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
 $CMP 74HC4051
 D Analog Multiplexer 8 to 1 lins
 K CMOS MUX MUX8
