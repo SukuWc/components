@@ -39,6 +39,12 @@ K TTL SR 3State
 F http://www.ti.com/lit/gpn/sn74ls595
 $ENDCMP
 #
+$CMP BSP318SH6327
+D 2.6A Id, 60V Vds, N-Channel MOSFET, SOT-223
+K N-Channel MOSFET
+F https://hu.mouser.com/ProductDetail/Infineon-Technologies/BSP318S-H6327?qs=sGAEpiMZZMshyDBzk1%2FWizSW%252BwlCH%2FhMeA2LbLTNlxJd935pnkCaWA%3D%3D
+$ENDCMP
+#
 $CMP CAP
 D Unpolarized capacitor, small symbol
 K capacitor cap
@@ -55,6 +61,30 @@ $CMP DIODE
 D Diode, small symbol
 K diode
 F ~
+$ENDCMP
+#
+$CMP DS1821C
+D Programmable Digital Thermostat and Thermometer TO-92
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS1821.pdf
+$ENDCMP
+#
+$CMP DS1822
+D Econo 1-Wire Digital Thermometer TO-92
+K OneWire 1Wire Dallas Maxim
+F http://datasheets.maximintegrated.com/en/ds/DS1822.pdf
+$ENDCMP
+#
+$CMP DS18B20
+D 1-Wire Ambient Temperature Sensor TO-92
+K OneWire 1-Wire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/MAX31820.pdf
+$ENDCMP
+#
+$CMP DS18S20
+D High-Precision 1-Wire Digital Thermometer TO-92
+K OneWire 1Wire Maxim Dallas
+F http://datasheets.maximintegrated.com/en/ds/DS18S20.pdf
 $ENDCMP
 #
 $CMP FERRIT
