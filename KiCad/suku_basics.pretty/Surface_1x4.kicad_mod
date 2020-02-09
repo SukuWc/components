@@ -1,4 +1,4 @@
-(module Surface_1x4 (layer F.Cu) (tedit 5E400DC7)
+(module Surface_1x4 (layer F.Cu) (tedit 5E403147)
   (descr "Through hole straight pin header, 1x04, 2.00mm pitch, single row")
   (tags "Through hole pin header THT 1x04 2.00mm single row")
   (fp_text reference REF** (at 0 -2.06) (layer F.SilkS)
@@ -29,9 +29,4 @@
   (pad 2 smd roundrect (at 0 2) (size 2.5 1.35) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 3 smd roundrect (at 0 4) (size 2.5 1.35) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 4 smd roundrect (at 0 6) (size 2.5 1.35) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KISYS3DMOD}/Connector_PinHeader_2.00mm.3dshapes/PinHeader_1x04_P2.00mm_Vertical.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )
